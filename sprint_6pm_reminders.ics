@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Handshake Gemini Mission//Sprint Countdown//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:sprint-t7h-20261123@handshake
+DTSTAMP:20261123T053000Z
+DTSTART:20261123T053000Z
+DTEND:20261123T060000Z
+SUMMARY:T-7h: Kickoff & Core Architecture
+DESCRIPTION:Sprint Countdown Milestone 1 (T-7h)\nFocus: Establish system architecture, set up repository, define core components.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Kickoff & Core Architecture in 15 mins
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-t5h-20261123@handshake
+DTSTAMP:20261123T053000Z
+DTSTART:20261123T073000Z
+DTEND:20261123T080000Z
+SUMMARY:T-5h: Feature Implementation Finished
+DESCRIPTION:Sprint Countdown Milestone 2 (T-5h)\nFocus: Complete all key business logic and primary user flows.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Feature Implementation Finished in 15 mins
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-t3h-20261123@handshake
+DTSTAMP:20261123T053000Z
+DTSTART:20261123T093000Z
+DTEND:20261123T100000Z
+SUMMARY:T-3h: Integration & First Build
+DESCRIPTION:Sprint Countdown Milestone 3 (T-3h)\nFocus: Integrate modules, resolve cross-dependency issues, test build output.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Integration & First Build in 15 mins
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-t1h-20261123@handshake
+DTSTAMP:20261123T053000Z
+DTSTART:20261123T113000Z
+DTEND:20261123T120000Z
+SUMMARY:T-1h: QA Testing & Polish
+DESCRIPTION:Sprint Countdown Milestone 4 (T-1h)\nFocus: Run regression tests, check edge cases, refine styling and documentation.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder: QA Testing & Polish in 15 mins
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:sprint-t0-20261123@handshake
+DTSTAMP:20261123T053000Z
+DTSTART:20261123T123000Z
+DTEND:20261123T130000Z
+SUMMARY:T-0: Ship & Submit Final
+DESCRIPTION:Sprint Countdown Milestone 5 (T-0)\nFocus: Final build freeze, project artifact deployment, and submission.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:FINAL DEADLINE: 6:00 PM Sprint Ship & Submit!
+END:VALARM
+END:VEVENT
+END:VCALENDAR
